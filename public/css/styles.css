@@ -6,6 +6,12 @@
   box-sizing: border-box;
 }
 
+img {
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+
 html,
 body {
   font-size: 100%;
