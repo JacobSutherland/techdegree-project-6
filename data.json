@@ -1,73 +1,74 @@
-[
-    {
-        "id": "0",
-        "project_name": "Random Quote Generator",
-        "descrition": "A program that displays a randomly selected quote at an interval and each time the user clicks a button",
-        "technologies": ["JavaScript", "CSS"],
-        "live_link": "https://random-quote-generation.netlify.app",
-        "github_link": "https://github.com/JacobSutherland/techdegree-project-1",
-        "image_urls": ["/images/quotes1.jpeg", "/images/quotes2.jpeg", "/images/quotes3.jpeg"] 
-    },
+ {
+     "projects":[
+        {
+            "id": "0",
+            "project_name": "Random Quote Generator",
+            "description": "A program that displays a randomly selected quote at an interval and each time the user clicks a button",
+            "technologies": ["JavaScript", "CSS", "HTML"],
+            "live_link": "https://random-quote-generation.netlify.app",
+            "github_link": "https://github.com/JacobSutherland/techdegree-project-1",
+            "image_urls": ["/images/quotes1.jpeg", "/images/quotes2.jpeg", "/images/quotes3.jpeg"] 
+        },
 
-    {
-        "id": "1",
-        "project_name": "Filtering and Pagination",
-        "descrition": "Displays a list of students and paginates the results",
-        "technologies": ["JavaScript", "CSS"],
-        "live_link": "https://paginationandfiltering.netlify.app/",
-        "github_link": "https://github.com/JacobSutherland/techdegree-project-2",
-        "image_urls": ["images/pagination1.jpeg", "images/pagination2.jpeg"]
-    },
+        {
+            "id": "1",
+            "project_name": "Filtering and Pagination",
+            "description": "Displays a list of students and paginates the results",
+            "technologies": ["JavaScript", "CSS", "HTML"],
+            "live_link": "https://paginationandfiltering.netlify.app/",
+            "github_link": "https://github.com/JacobSutherland/techdegree-project-2",
+            "image_urls": ["images/pagination1.jpeg", "images/pagination2.jpeg"]
+        },
 
-    {
-        "id": "2",
-        "project_name": "Interactive Form",
-        "descrition": "Interactive registration form for a fictional conference called 'FullStack Conf.' that validates user input by utilizing vanilla JavaScript on a form.",
-        "technologies": ["JavaScript", "CSS"],
-        "live_link": "https://interactiveforms.netlify.app",
-        "github_link": "https://github.com/JacobSutherland/Techdegree-Project-3",
-        "image_urls": ["images/form1.jpeg", "images/form2.jpeg", "images/form3.jpeg"]
-    },
+        {
+            "id": "2",
+            "project_name": "Interactive Form",
+            "description": "Interactive registration form for a fictional conference called 'FullStack Conf.' that validates user input by utilizing vanilla JavaScript on a form.",
+            "technologies": ["JavaScript", "CSS", "HTML"],
+            "live_link": "https://interactiveforms.netlify.app",
+            "github_link": "https://github.com/JacobSutherland/Techdegree-Project-3",
+            "image_urls": ["images/form1.jpeg", "images/form2.jpeg", "images/form3.jpeg"]
+        },
 
-    {
-        "id": "3",
-        "project_name": "Phrase Hunter",
-        "descrition": "browser-based, word guessing game: 'Phrase Hunter.' Players select a random, hidden phrase, which the player tries to guess by clicking letters on an onscreen keyboard as well as physical keyboard.",
-        "technologies": ["JavaScript", "CSS"],
-        "live_link": "https://phrasehunts.netlify.app",
-        "github_link": "https://github.com/JacobSutherland/Techdegree-project-4",
-        "image_urls": ["images/game1.jpeg", "images/game2.jpeg", "images/game3.jpeg", "images/game4.jpeg", "images/game5.jpeg"]
-    },
+        {
+            "id": "3",
+            "project_name": "Phrase Hunter",
+            "description": "browser-based, word guessing game: 'Phrase Hunter.' Players select a random, hidden phrase, which the player tries to guess by clicking letters on an onscreen keyboard as well as physical keyboard.",
+            "technologies": ["JavaScript", "CSS", "HTML"],
+            "live_link": "https://phrasehunts.netlify.app",
+            "github_link": "https://github.com/JacobSutherland/Techdegree-project-4",
+            "image_urls": ["images/game1.jpeg", "images/game2.jpeg", "images/game3.jpeg", "images/game4.jpeg", "images/game5.jpeg"]
+        },
 
-    {
-        "id": "4",
-        "project_name": "Employee Directory",
-        "descrition": "An internal employee directory tool for a fictional startup company that allows employees to share contact information with each other. The tool utilizes API calls to https://randomuser.me/ by using the fetch API to retreive data / employee information.",
-        "technologies": ["JavaScript", "CSS"],
-        "live_link": "https://employeedirectoryapp.netlify.app",
-        "github_link": "https://github.com/JacobSutherland/techdegree-project-5",
-        "image_urls": ["images/directory1.jpeg", "images/directory2.jpeg", "images/directory3.jpeg", "images/directory4.jpeg"]
-    },
+        {
+            "id": "4",
+            "project_name": "Employee Directory",
+            "description": "An internal employee directory tool for a fictional startup company that allows employees to share contact information with each other. The tool utilizes API calls to https://randomuser.me/ by using the fetch API to retreive data / employee information.",
+            "technologies": ["JavaScript", "CSS", "HTML", "API"],
+            "live_link": "https://employeedirectoryapp.netlify.app",
+            "github_link": "https://github.com/JacobSutherland/techdegree-project-5",
+            "image_urls": ["images/directory1.jpeg", "images/directory2.jpeg", "images/directory3.jpeg", "images/directory4.jpeg"]
+        },
 
-    {
-        "id": "5",
-        "project_name": "Static Radio",
-        "descrition": "Music streaming platform landing page.",
-        "technologies": ["JavaScript", "CSS"],
-        "live_link": "https://staticradio.netlify.app/",
-        "github_link": "https://github.com/JacobSutherland/StaticRadio",
-        "image_urls": ["images/static1.jpeg", "images/static2.jpeg", "images/static3.jpeg", "images/static4.jpeg"]
-    },
+        {
+            "id": "5",
+            "project_name": "Static Radio",
+            "description": "Music streaming platform landing page.",
+            "technologies": ["JavaScript", "CSS", "HTML"],
+            "live_link": "https://staticradio.netlify.app/",
+            "github_link": "https://github.com/JacobSutherland/StaticRadio",
+            "image_urls": ["images/static1.jpeg", "images/static2.jpeg", "images/static3.jpeg", "images/static4.jpeg"]
+        },
 
-    {
-        "id": "6",
-        "project_name": "Sutherland Development",
-        "descrition": "Landing page for a construction company",
-        "technologies": ["JavaScript", "CSS"],
-        "live_link": "https://sutherlanddev.netlify.app/",
-        "github_link": "https://github.com/JacobSutherland/SuthDev",
-        "image_urls": ["images/suth1.jpeg", "images/suth2.jpg", "images/suth3.jpeg", "images/suth4.jpeg"]
-    }
+        {
+            "id": "6",
+            "project_name": "Sutherland Development",
+            "description": "Landing page for a construction company",
+            "technologies": ["JavaScript", "CSS", "HTML"],
+            "live_link": "https://sutherlanddev.netlify.app/",
+            "github_link": "https://github.com/JacobSutherland/SuthDev",
+            "image_urls": ["images/suth1.jpeg", "images/suth2.jpg", "images/suth3.jpeg", "images/suth4.jpeg"]
+        }
 
-]
-
+    ]
+}

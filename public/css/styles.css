@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,700&display=swap');
 /*
   Main styles
 */
@@ -6,11 +6,11 @@
   box-sizing: border-box;
 }
 
-img {
+/* img {
   min-width: 100%;
   min-height: 100%;
   object-fit: cover;
-}
+} */
 
 html,
 body {
@@ -23,7 +23,7 @@ body {
 
 body {
   position: relative;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "lato", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
@@ -37,18 +37,24 @@ article {
   background: #fefefe;
 }
 
-h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
+h1 {
+  border-left: 5px solid black;
+  padding-left: 10px;
+}
+
+h1,h2,h3,h4,h5 {
+  font-family: 'cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 h5{
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   letter-spacing: 2.5px;
   -webkit-text-transform: uppercase;
   text-transform: uppercase;
 }
 
 h6{
+  font-family: 'cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   letter-spacing: 2.5px;
   -webkit-text-transform: uppercase;
   text-transform: uppercase;
@@ -56,6 +62,7 @@ h6{
 }
 
 p{
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 15px;
   color: #666;
 }
@@ -90,6 +97,10 @@ a {
   padding: 40px 50px 30px;
   background: #fefefe;
   border-bottom: 1px solid #eaeaea;
+}
+
+li {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;;
 }
 
 .box h1,
@@ -148,10 +159,16 @@ nav a span {
 
 .sidebar-info-box {
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .thumbnail-box {
-  padding: 0 10px;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
 }
 
 .sidebar .thumbnail {
