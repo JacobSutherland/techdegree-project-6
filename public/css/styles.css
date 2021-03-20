@@ -352,14 +352,27 @@ i {
   justify-content: flex-start;
   color: black;
   font-weight: bold;
-  background-image: url('/images/dog404.jpeg');
+  background-image: url('/images/404.jpeg');
   background-position: 0% 75%;
   background-size: cover;
   background-color: white;
 }
 
-.notFound h1 {
+.notFound h1, .error h1{
   border: none;
+}
+
+.error {
+  background-image: url('/images/something-went-wrong.jpeg');
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  color: black;
+  font-weight: bold;
+  background-position: 0% 75%;
+  background-size: cover;
+  background-color: white;
 }
 /* 
   Tablet layout styles 

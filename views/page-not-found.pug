@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 html(lang="en" dir="ltr")
   head
-    base(href='/')
     meta(charset='utf-8')
     meta(http-equiv='x-ua-compatible', content='ie=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
@@ -11,7 +10,7 @@ html(lang="en" dir="ltr")
     link(rel='stylesheet', href='/css/styles.css') 
 
     body.notFound
-        h1 Oh, I didn't hear you come in, it seems you might be lost
-        h1 #{error.status}
-        h1 #{error.message}
-        pre #{error.stack}
+    block content
+        h1 Uh oh, I think you might be lost!
+        h1 #{err.status} 
+        h1 #{err.message}
