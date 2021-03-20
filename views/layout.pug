@@ -11,8 +11,6 @@ html(lang="en" dir="ltr")
     link(rel='stylesheet', href='/css/styles.css') 
     <script src="https://kit.fontawesome.com/18d863c735.js" crossorigin="anonymous"></script>
 
-    <!original path: '/static/css/styles.css' '/static/ breaks site'>
-
   body
     #my-info.sidebar
       .sidebar-info-box
@@ -21,13 +19,13 @@ html(lang="en" dir="ltr")
           img.thumbnail(src="/images/profile.jpg", alt='')
         .dev-intro-box
 
-          //- Replace with your name
+          //- Name Heading
           h5 Jacob Sutherland
 
-          //- Replace with description of who you are, what you do, and why you are so awesome
+          //- Description
           p JSON Wrangler, musican, and life long learner
 
-          //- Add path from your '/about' route handler to the href below
+          //- about link
           a(href='/about') Learn More &rarr;
 
     .wrapper
@@ -35,7 +33,7 @@ html(lang="en" dir="ltr")
         .header-info-box
           button#menu-icon.menu-icon(type='button' data-toggle='my-info')
 
-          //- Replace with your name — this is for the mobile layout
+          //- mobile name heading
           span Jacob Sutherland
 
       block content
