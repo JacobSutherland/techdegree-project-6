@@ -28,28 +28,30 @@ router.get('/project/:id', (req, res, next) => {
             images: projects[page].image_urls
         });
     } else {
+        //Without adding a next(), the app hangs on bad requests and logs errors on good requests?
         next();
     }
 });
-//General Error Handler 
-router.use((req, res, next) => {
-    const err = new Error('Uh oh, think you might be lost');
-    err.status = 404 || 500;
-    err.message = 'Not Found';
-    next(err);
-});
 
-//recives Error object and throws error based on status code
+//Creates error
+router.use((req, res, next) => {
+    const err = new Error("Not found");
+    err.status = 404;
+    err.message = "Not Found";
+    next(err);
+  });
+  
+// //General error handler middleware
 router.use((err, req, res, next) => {
-    if(err.status === 404) {
-        res.render('page-not-found', { err: err });
-        console.log(err.status, err.message);
+    res.status = err.status || 500;
+    res.message = err.message || 'Something Went Wrong';
+    if(res.status === 404){
+        res.render('page-not-found', { err: res });
+        console.error(err.status, err.message);
     } else {
-        err.message = 'Something Went Wrong';
-        err.status = 500;
-        res.render('error', { err: err });
-        console.log(err.status, err.message);
-    };
+        res.render('error', { err: res });
+        console.error(err.status, err.message);
+    }
 });
 
 module.exports = router
