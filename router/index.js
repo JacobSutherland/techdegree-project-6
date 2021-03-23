@@ -47,10 +47,10 @@ router.use((err, req, res, next) => {
     res.message = err.message || 'Something Went Wrong';
     if(res.status === 404){
         res.render('page-not-found', { err: res });
-        console.error(err.status, err.message);
+        console.log(err.status, err.message);
     } else {
         res.render('error', { err: res });
-        console.error(err.status, err.message);
+        console.log(err.status, err.message);
     }
 });
 
