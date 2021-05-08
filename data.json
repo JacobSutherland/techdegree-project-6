@@ -68,6 +68,16 @@
             "live_link": "https://sutherlanddev.netlify.app/",
             "github_link": "https://github.com/JacobSutherland/SuthDev",
             "image_urls": ["images/suth1.jpeg", "images/suth2.jpg", "images/suth3.jpeg", "images/suth4.jpeg"]
+        }, 
+
+        {
+            "id": "7",
+            "project_name": "Kiteru",
+            "description": "A Japanese hirigana learning tool",
+            "technologies": ["JavaScript", "CSS", "HTML"],
+            "live_link": "https://kiteru.netlify.app",
+            "github_link": "https://github.com/JacobSutherland/kiteruv1",
+            "image_urls": ["images/kiteruHome.jpeg", "images/learn.jpeg", "images/learnActive.jpeg", "images/chart.jpeg"]
         }
 
     ]
